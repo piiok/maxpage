@@ -1,4 +1,4 @@
-<?php 
+<?php
 // AIzaSyBCDrwD0qSoTb7e96i2R_KH0_fSxTSs6hQ API KEY
  include("./encabezado.php");
  ?>
@@ -14,18 +14,18 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
         <div class="item active">
-          <img style="height:400px;width:100%;" src="./../img/9.jpg" alt="Imagen1" >
+          <img style="height:400px;width:100%;" src="./../img/2.jpg" alt="Imagen1" >
         </div>
 
         <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/18.jpg" alt="Imagen2">
+          <img style="height:400px;width:100%;" src="./../img/3.jpg" alt="Imagen2">
         </div>
-    
+
         <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/19.jpg" alt="Imagen3" >
+          <img style="height:400px;width:100%;" src="./../img/1.jpg" alt="Imagen3" >
         </div>
         <div class="item">
-          <img  style="height:400px;width:100%;" src="./../img/13.jpg" alt="Imagen4" >
+          <img  style="height:400px;width:100%;" src="./../img/4.jpg" alt="Imagen4" >
         </div>
       </div>
 
@@ -40,6 +40,6 @@
       </a>
     </div>
 </div>
-  <?php 
+  <?php
 	include("./footer.php");
    ?>
