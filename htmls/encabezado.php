@@ -31,6 +31,7 @@
             <div class="col-sm-4"  ><img style="float:center;" class="img img-responsive" src="./../img/logo.png" alt="Repair Maxter Cell"></div>
           </div>
   </div>
+  <div style="height:5px;background:#b8252d;" ></div>
 </div>
 <nav class="navbar navbar-inverse " style="margin-bottom:0px !important;border-radius:0px !important;"data-spy="affix" data-offset-top="197">
     <div class="navbar-header">
