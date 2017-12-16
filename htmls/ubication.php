@@ -15,12 +15,18 @@
         width: 100%;
        }
     </style>
-<div class="container-fluid">
 <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-sm-8" style="background-color:#dddddd;">
-    	<h3>Aquí estamos: </h3>
-
+    	<!-- <h3>Aquí estamos: </h3> -->
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	<div class="titulo" style="padding-top:20px;color: #3B5998;" align="center"> Nuestra ubicación</div>
+    	
     	<div id="map" style="border-radius:10px;margin-bottom:10px;"></div> <?php //En este div se proyecta el mapa ?>
 
     	<center>
@@ -30,7 +36,7 @@
     	</center>
     </div>
 </div>
-</div>
+
 
     <script>
       function initMap() {

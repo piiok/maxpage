@@ -1,0 +1,161 @@
+@font-face{
+
+	font-family: Patua One;
+	src:url('./PatuaOne-Regular.ttf') format("truetype");
+	}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.textf{
+	text-shadow:1px 0px 23px #000000;
+	color:#EFFBFB;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+}
+.mobil{
+	width:30%;
+}
+@media only screen and (max-width: 768px) {
+		.mobil{
+			width:80%;
+		}
+}
+body{
+		font:15px/20px Patua One !important;
+		background-color:#EFFBFB;
+	}
+footer {
+  	background-color: #1c1c1c;
+  	position: fixed;
+  	bottom: 0px;
+	text-align: right;
+	padding: 5px;
+  	width: 100%;
+  	color: white;
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+	-khtml-user-select: none;
+  	-ms-user-select:none;
+}
+p{
+	color: #fff;
+	margin-top:10px;
+}
+/*ul, ol {
+	list-style:none;
+}
+.header {
+	font-family: verdana;
+}
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#434343;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#b8252d;
+	transition:all 0.2s ease-in-out;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}*/
+
+.caja{
+	background-color: #1c1c1c;
+	outline: 5px solid #b8252d;
+	outline-offset: 0px;
+	height: 100px;
+
+}
+.celdas{
+	outline:0px;
+	padding: 5px 8px;
+	height:30px;
+	border: 1px solid #aaa;
+	border-radius: 10px 10px 10px 10px;
+	color:#b8252d;
+}
+.celdas:focus{
+	box-shadow: 0 0 0 1px #b8252d;
+}
+.titulo{
+	line-height:31px;
+	font-size:30px;
+	margin-bottom:30px;
+	height: auto;
+}
+.botones{
+	background-color:#b8252d;
+	box-shadow:1px 1px 5px rgba(0, 0, 0, 0.4);
+	border:none;
+	border-radius: 10px 10px 10px 10px;
+	color:#fff;
+	width: 120px;
+	height: 40px;
+}
+.ubicacion{
+	position:absolute;
+	top:150px;
+	left:52%;
+	width: 46%;
+}
+.tablas {
+	font: normal 15px/150% Arial, Helvetica, sans-serif;
+	background: #fff;
+	overflow: auto;
+	border: 1px solid #b8252d;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top:20px;
+}
+.tablas tr td {
+	padding-top: 10px;
+	text-align:center;
+}
+.tablas table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+.tablas table td, .tablas table th { /*Espaciado en las filas y columnas*/
+	padding: 3px 10px;
+}
+.tablas table thead th { /*cabezera de la tablas nombres de las columnas*/
+	background-color:#b8252d;
+	color:#fff;
+	font-size: 15px;
+	font-weight: bold;
+	border-left: 2px solid #b8252d;
+	text-align:center;
+}
+.tablas table tbody td {
+	color: #000;
+	border-left: 1px solid #b8252d;
+	font-size: 15px;
+	font-weight: normal;
+}
+.cambio {
+	background: #E6E6E6;
+}
