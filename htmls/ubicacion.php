@@ -34,7 +34,7 @@
           position: myLatLng,
           map: map,
           icon: image,
-          animation: google.maps.Animation.DROP,
+          animation: google.maps.Animation.BOUNCE,
           title: 'CRA 23 #10-53, San Francisco'
         });
 
