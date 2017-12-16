@@ -45,4 +45,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCDrwD0qSoTb7e96i2R_KH0_fSxTSs6hQ&callback=initMap">
     </script>
     
-  </body>
+  <?php 
+	include("./footer.php");
+   ?>
