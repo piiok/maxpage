@@ -11,7 +11,7 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <!-- Wrapper for slides -->
-      <div class="carousel-inner">
+      <div class="carousel-inner"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
         <div class="item active">
           <img style="height:400px;width:100%;" src="./../img/9.jpg" alt="Imagen1" >
         </div>
