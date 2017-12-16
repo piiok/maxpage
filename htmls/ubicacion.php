@@ -9,6 +9,9 @@
        * element that contains the map. */
       #map {
         height: 100%;
+        /*-webkit-filter: grayscale(100%);
+        filter: grayscale(100%); */  /*escala de gris*/
+
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -28,7 +31,6 @@
           zoom: 16,
           center: myLatLng
         });
-
         var image = '../img/icono.png';
         var beachMarker = new google.maps.Marker({
           position: myLatLng,
