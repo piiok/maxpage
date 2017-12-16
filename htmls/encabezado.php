@@ -25,35 +25,11 @@
       <li class="active"><a href="#">Home</a></li>
       <li class="dropdown"><a href="#">Page 1</a></li>
       <li class="dropdown"><a href="#">Page 2</a></li>
-      <li class="dropdown"><a href="#">Page 3</a></li>
+      <li class="dropdown"><a href="./ubication.php">Nuestra ubicación</a></li>
     </ul>
     </div>
   </div>
 </nav>
 <div style="margin-top:50px"> 
   
-    
-<!--
-  class="container"
-  <h3>Fixed Navbar</h3>
-  <div class="row">
-    <div class="col-md-4">
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>    
-    </div>
-    <div class="col-md-4"> 
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-    </div>
-    <div class="col-md-4"> 
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p> 
-    </div>
-  </div>
-</div>
-
-<h1>Scroll this page to see the effect</h1>
-
-</body>
-
-</html> -->
+ 
