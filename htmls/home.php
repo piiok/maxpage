@@ -2,7 +2,8 @@
 // AIzaSyBCDrwD0qSoTb7e96i2R_KH0_fSxTSs6hQ API KEY
  include("./encabezado.php");
  ?>
- <div id="myCarousel" style="margin-top:50px;" class="carousel slide" data-ride="carousel"  style="width:100%;" align="center">
+ <div class="row">
+ <div id="myCarousel"  class="carousel slide" data-ride="carousel"  style="width:100%;" align="center">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -38,7 +39,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-        
+</div>
   <?php 
 	include("./footer.php");
    ?>

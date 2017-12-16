@@ -26,9 +26,9 @@
 
 <div class="container-fluid" style="padding:0px !important;" >
   <div class="jumbotron" style="width:100%;padding:0px !important; margin:0px !important;background-color:#1B1B1B !important;border-radius:0px !important;">
-          <div class="row">
+          <div class="row" style="margin:0px !important;">
             <div class="col-sm-4"></div>
-            <div class="col-sm-4" ><img style="float:center;" class="img img-responsive" src="./../img/logo.png" alt="Repair Maxter Cell"></div>
+            <div class="col-sm-4"  ><img style="float:center;" class="img img-responsive" src="./../img/logo.png" alt="Repair Maxter Cell"></div>
           </div>
   </div>
 </div>

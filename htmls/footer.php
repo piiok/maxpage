@@ -60,7 +60,7 @@ i {
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 1px solid #2f2f33 ;
-    background: #080808;
+    background: #1B1B1B;
     
 }
 .copyright-text p {
@@ -174,12 +174,12 @@ i {
 <div class="footer-bottom">
         <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-6 ">
                         <div class="copyright-text">
                             <p>Powered by JDWEP</p>
                         </div>
                     </div> <!-- End Col -->
-                    <div class="col-sm-4 text-right ">
+                    <div class="col-sm-6 text-right ">
                         <div class="social-icons"> 
                            <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                             <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
