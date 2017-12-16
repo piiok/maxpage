@@ -34,7 +34,4 @@
 </nav>
 <div style="margin-top:50px"> 
       
-  <?php 
-  include("./footer.php");
-   ?>
  
