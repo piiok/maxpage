@@ -3,6 +3,9 @@
 <head>
   <title>Repair Maxter Cell</title>
   <meta charset="utf-8">
+  <meta name="description" content="venta de celulares y accesorios">
+  <meta name="keywords" content="celulares,accesorios,servicio tecnico,bucaramanga">
+  <meta name="author" content="JDWEP">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
    <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
