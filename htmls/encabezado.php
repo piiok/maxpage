@@ -10,6 +10,7 @@
   <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
   <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="shortcut icon" href="../img/max.ico">
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <style>
   /* Note: Try to remove the following lines to see the effect of CSS positioning */
   .affix {
