@@ -25,8 +25,16 @@ h4 {
   	background-color: 
   }
 </style>
+<script>
+  $(document).ready( function(){
+      $("#slide1").fadeIn(3000);
+  });
+  $("#slide1").fadeIn(3000);
+
+  </script>
+
 <br>
-<div class="slide text-center" high="100%">
+<div id="slide1" class="slide text-center" high="100%">
 	<a id="servicios"></a>
 	<h2>SERVICIOS</h2>
 	<div class="row slideanim">
