@@ -12,20 +12,20 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <!-- Wrapper for slides -->
-      <div class="carousel-inner"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
+      <div class="carousel-inner" style="height:40%;"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
         <div class="item active">
-          <img style="height:400px;width:100%;" src="./../img/2.jpg" alt="Imagen1" >
+          <img style="height:100%;width:100%;" src="./../img/2.jpg" alt="Imagen1" >
         </div>
 
         <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/3.jpg" alt="Imagen2">
+          <img style="height:100%;width:100%;" src="./../img/3.jpg" alt="Imagen2">
         </div>
 
         <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/1.jpg" alt="Imagen3" >
+          <img style="height:100%;width:100%;" src="./../img/1.jpg" alt="Imagen3" >
         </div>
         <div class="item">
-          <img  style="height:400px;width:100%;" src="./../img/4.jpg" alt="Imagen4" >
+          <img  style="height:100%;width:100%;" src="./../img/4.jpg" alt="Imagen4" >
         </div>
       </div>
 
