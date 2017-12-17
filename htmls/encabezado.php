@@ -3,12 +3,17 @@
 <head>
   <title>Repair Maxter Cell</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="venta de celulares y accesorios">
+  <meta name="keywords" content="celulares,accesorios,servicio tecnico,bucaramanga">
+  <meta name="author" content="JDWEP">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
    <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
   <script src="../jquery/jquery-3.2.1.js"></script>
   <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
   <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="shortcut icon" href="../img/max.ico">
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <style>
   /* Note: Try to remove the following lines to see the effect of CSS positioning */
   .affix {
@@ -38,18 +43,16 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="./home.php">Repair Maxter Cell</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
-      <li class="dropdown"><a href="#">Page 1</a></li>
-      <li class="dropdown"><a href="#">Page 2</a></li>
-      <li class="dropdown"><a href="./ubication.php">Nuestra ubicación</a></li>
+      <li class="dropdown"><a href="#">Productos</a></li>
+      <li class="dropdown"><a href="#">Servicios</a></li>
+      <li class="dropdown"><a href="./ubication.php">Contacto</a></li>
     </ul>
     </div>
 </nav>
-<div class="container-fluid"> 
-      
- 
+<div class="container-fluid">

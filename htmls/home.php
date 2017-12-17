@@ -10,22 +10,27 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
       <!-- Wrapper for slides -->
-      <div class="carousel-inner"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
+      <div class="carousel-inner" style="height:40%;"> <!-- Recuerden cambiar las imagenes por una que sean de tipo marketin -->
         <div class="item active">
-          <img style="height:400px;width:100%;" src="./../img/2.jpg" alt="Imagen1" >
+          <img style="height:100%;width:100%;" src="./../img/5.jpg" alt="Imagen1" >
+        </div>
+        <div class="item">
+          <img style="height:100%;width:100%;" src="./../img/2.jpg" alt="Imagen2">
+        </div>
+
+
+        <div class="item">
+          <img style="height:100%;width:100%;" src="./../img/3.jpg" alt="Imagen3">
         </div>
 
         <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/3.jpg" alt="Imagen2">
-        </div>
-
-        <div class="item">
-          <img style="height:400px;width:100%;" src="./../img/1.jpg" alt="Imagen3" >
+          <img style="height:100%;width:100%;" src="./../img/1.jpg" alt="Imagen4" >
         </div>
         <div class="item">
-          <img  style="height:400px;width:100%;" src="./../img/4.jpg" alt="Imagen4" >
+          <img  style="height:100%;width:100%;" src="./../img/4.jpg" alt="Imagen5" >
         </div>
       </div>
 
@@ -39,6 +44,37 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+</div>
+<div id="client">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client1.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client2.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client3.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client4.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client5.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client6.png" alt="">
+      </div>
+
+    </div>
+  </div>
 </div>
   <?php
 	include("./footer.php");

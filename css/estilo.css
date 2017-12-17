@@ -89,6 +89,7 @@ p{
 
 }
 .celdas{
+	width: 250px;
 	outline:0px;
 	padding: 5px 8px;
 	height:30px;
@@ -158,4 +159,24 @@ p{
 }
 .cambio {
 	background: #E6E6E6;
+}
+/*Client*/
+#client {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#client .col-md-2 {
+	height: 100px;
+}
+
+#client span {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#client img {
+	max-height: 100px;
+	vertical-align: middle;
 }
