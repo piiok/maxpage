@@ -15,32 +15,35 @@
        	<!-- <h3>Aquí estamos: </h3> -->
           <div class="col-sm-12" style="background-image: url('../img/bg.jpg');margin-top:-5px;">
             <div class="titulo" style="padding-top:20px;color: #3B5998; font-family:Barlow;" align="center">Solicita más Información</div>
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <center>
-                      <form action="" method="post">
-                              <div>
-                                  <input type="text" name="first_name" placeholder="Nombre"/>
-                              </div><br>
-                              <div>
-                                  <input type="text" name="last_name" placeholder="Apellido"/>
-                              </div><br>
-                              <div>
-                                  <input type="text" name="email" placeholder="Email"/>
-                              </div><br>
-                              <div>
-                                  <div class="small">Envianos una breve descripción de tu solicitud.</div>
-                                  <textarea name="message" placeholder="Mensaje"></textarea>
-                              </div><br>
-                              <button type="submit" class="btn btn-primary">Enviar</button>
-                              <br><br>
+                <div class="col-sm-4"></div>
+                <center>
+                  <div class="col-sm-4" style="background-image: url('../img/telefono.png');width:330px; height:685px;background-repeat: no-repeat;">
+
+                        <br><br><br><br>
+                      <form action="" method="post" style="color:#fff;font-family:Barlow;">
+                              *Nombre:<br>
+                              <input class="celdas" type="text" name="first_name" /><br><br>
+
+                               *Apellido:<br>
+                               <input class="celdas" type="text" name="last_name" /><br><br>
+
+                               *Telefono:<br>
+                               <input class="celdas" type="text" name="telefono"/><br><br>
+
+                               *Email:<br>
+                               <input class="celdas" type="email" name="email"/><br><br>
+
+                               *Mensaje:<br>
+                               <textarea class="celdas" name="message" rows="4" style="height:80px"></textarea><br><br>
+
+                               <button type="submit" class="btn btn-primary">Enviar</button>
+
                       </form>
+                    </div>
                     </center>
+                  </div>
                 </div>
               </div>
-            <br>
-          </div>
-   </div>
    <?php
    include("./footer.php");
    ?>

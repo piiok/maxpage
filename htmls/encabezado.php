@@ -3,7 +3,7 @@
 <head>
   <title>Repair Maxtercell</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
    <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
   <script src="../jquery/jquery-3.2.1.js"></script>

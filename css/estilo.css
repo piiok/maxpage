@@ -89,6 +89,7 @@ p{
 
 }
 .celdas{
+	width: 250px;
 	outline:0px;
 	padding: 5px 8px;
 	height:30px;
