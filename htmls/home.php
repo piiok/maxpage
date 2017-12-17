@@ -40,6 +40,37 @@
       </a>
     </div>
 </div>
+<div id="client">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client1.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client2.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client3.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client4.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client5.png" alt="">
+      </div>
+
+      <div class="col-sm-4 col-md-2">
+        <span></span><img src="../img/client/client6.png" alt="">
+      </div>
+
+    </div>
+  </div>
+</div>
   <?php
 	include("./footer.php");
    ?>
