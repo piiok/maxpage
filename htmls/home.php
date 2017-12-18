@@ -34,6 +34,9 @@
   position: absolute;
   bottom: 5px;
   left: 13%;
+  animation-delay:0s;
+  animation-duration: 3s;
+  animation-name: anim2;
 }
 .logo{
   position: absolute;
@@ -65,13 +68,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation-delay:0s;
-  animation-duration: 3s;
-  animation-name: anim2;
 }
 .logomarca{
   position: relative;
   top: 0px; left: 0px;
+  opacity: 0;
+}
+.logomarca:hover{
+  opacity: 1;
 }
 @keyframes anim1 {
   from {
@@ -83,7 +87,8 @@
     opacity: 1;
     left: 15%;
   }
-@keyframes anim2 {
+}
+anim2 {
   from {
     opacity: 0;
   }
@@ -91,6 +96,7 @@
   to {
     opacity: 1;
   }
+}
 </style>
 <a id="portada"></a>
 <div class="row" style="height:100%;">
