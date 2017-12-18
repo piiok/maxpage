@@ -30,13 +30,48 @@
   animation-duration: 3s;
   animation-name: anim1;
 }
-
+.tablestyle{
+  position: absolute;
+  bottom: 5px;
+  left: 13%;
+}
 .logo{
   position: absolute;
   width: 70%;
   z-index: 5;
   top: 24%;
   left: 15%;
+}
+.logohuawei{
+  background-image: url("./../img/client/huawei.png");
+}
+.logolg{
+  background-image: url("./../img/client/lg.png");
+}
+.logomoto{
+  background-image: url("./../img/client/motorola.png");
+}
+.logonokia{
+  background-image: url("./../img/client/nokia.png");
+}
+.logoapple{
+  background-image: url("./../img/client/apple.png");
+}
+.logosams{
+  background-image: url("./../img/client/samsung.png");
+}
+.logohuawei , .logolg , .logomoto, .logonokia , .logoapple , .logosams{
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-delay:0s;
+  animation-duration: 3s;
+  animation-name: anim2;
+}
+.logomarca{
+  position: relative;
+  top: 0px; left: 0px;
 }
 @keyframes anim1 {
   from {
@@ -48,6 +83,14 @@
     opacity: 1;
     left: 15%;
   }
+@keyframes anim2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 </style>
 <a id="portada"></a>
 <div class="row" style="height:100%;">
@@ -55,7 +98,26 @@
     <!-- <img id="imgp" src="./../img/fondo.jpg" class="imgContainer">
     <div id="cajap" class="cajap"></div> -->
     <img src="./../img/logo3.png" class="logoanim logo">
-    
+    <div class="tablestyle">
+          <div class="logohuawei">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logolg">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logomoto">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logonokia">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logoapple">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logosams">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+    </div>
   </div>
   <script type="text/javascript">
     document.getElementById("cajap").style.height=(String)(document.body.scrollHeight)+"px";
@@ -106,33 +168,33 @@
       </a>
     </div>
 </div> -->
-    <div class="row">
+    <!-- <div class="row">
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client1.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client2.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client3.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client4.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client5.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
       <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/client/client6.png" alt="">
+        <span></span><img src="../img/luz.png" alt="">
       </div>
 
-    </div>
+    </div> -->
 
   <?php
 	include("./footer.php");
