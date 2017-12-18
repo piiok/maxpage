@@ -16,12 +16,16 @@
   <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <style>
   .fondo{
-    height:100%;
-    width: 100%;
+    /*height:100%;*/
+    /*width: 100%;*/
     background-image: url("./../img/fondo.jpg") !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: scroll;
+  }
+  a{
+    font-size: 1.5em !important;
   }
   </style>
   <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
@@ -62,7 +66,7 @@
       <div class="collapse navbar-collapse" id="myNavbar" >
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a href="#">Productos</a></li>
-        <li class="dropdown"><a href="#">Servicios</a></li>
+        <li class="dropdown"><a onclick="location.reload();"  href="./home.php#servicios">Servicios</a></li>
         <li class="dropdown"><a href="./ubication.php">Contacto</a></li>
       </ul>
       </div>
