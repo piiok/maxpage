@@ -88,7 +88,7 @@
     left: 15%;
   }
 }
-anim2 {
+@keyframes anim2 {
   from {
     opacity: 0;
   }
