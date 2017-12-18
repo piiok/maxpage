@@ -32,8 +32,10 @@
 }
 .tablestyle{
   position: absolute;
+  width: 85%;
   bottom: 5px;
-  left: 13%;
+  left: 0px;
+  padding-left: 15%;
   animation-delay:0s;
   animation-duration: 3s;
   animation-name: anim2;
@@ -65,11 +67,13 @@
 }
 .logohuawei , .logolg , .logomoto, .logonokia , .logoapple , .logosams{
   display: inline-block;
+  width: 15.9999%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .logomarca{
+  width: 100%;
   position: relative;
   top: 0px; left: 0px;
   opacity: 0;
@@ -130,77 +134,6 @@
     // document.getElementById("cajap").
     </script>
 </div>
-
- <!-- <div class="row">
- <div id="myCarousel"  class="carousel slide" data-ride="carousel"  style="width:100%;" align="center">
-     
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-      </ol>
-      
-      <div class="carousel-inner" style="height:40%;"> 
-        <div class="item active">
-          <img style="height:100%;width:100%;" src="./../img/5.jpg" alt="Imagen1" >
-        </div>
-        <div class="item">
-          <img style="height:100%;width:100%;" src="./../img/2.jpg" alt="Imagen2">
-        </div>
-
-
-        <div class="item">
-          <img style="height:100%;width:100%;" src="./../img/3.jpg" alt="Imagen3">
-        </div>
-
-        <div class="item">
-          <img style="height:100%;width:100%;" src="./../img/1.jpg" alt="Imagen4" >
-        </div>
-        <div class="item">
-          <img  style="height:100%;width:100%;" src="./../img/4.jpg" alt="Imagen5" >
-        </div>
-      </div>
-
-      
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-</div> -->
-    <!-- <div class="row">
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-      <div class="col-sm-4 col-md-2">
-        <span></span><img src="../img/luz.png" alt="">
-      </div>
-
-    </div> -->
 
   <?php
 	include("./footer.php");
