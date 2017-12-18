@@ -35,7 +35,7 @@
   position: absolute;
   width: 70%;
   z-index: 5;
-  top: 15%;
+  top: 24%;
   left: 15%;
 }
 @keyframes anim1 {
