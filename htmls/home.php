@@ -156,29 +156,24 @@ h4 {
   </div>
  
 </div>
-<a id="servicios"></a>
-<div class="row">
-  <div id="slide2" class="slide cajap text-center" high="100%">
-    <a id="servicios"></a>
-    <h2  class=" h2p ">SERVICIOS</h2>
-    <div class="row slideanim">
-      <div class="col-sm-2">
-      </div>  
-      <div class="col-sm-4">
+
+<div class="row"><a id="servicios"></a>
+  <div id="slide2" class="cajap slideP" >
+    <h2  class=" h2p ">SERVICIOS</h2>  
+      <div>
             <span class="glyphicon glyphicon-shopping-cart logo-small"></span>
             <h4 style="color:#303030;">VENTA DE ARTICULOS TECNOLÓGICOS</h4>
             <!-- <p>Venta de accesorios y artículos tecnológicos nuevos y usados.</p> -->
       </div>
-      <div class="col-sm-4">
+      <div>
             <span class="glyphicon glyphicon-wrench logo-small"></span>
             <h4 style="color:#303030;">SERVICIO TÉCNICO</h4>
             <!-- <p>Soporte técnico para aparatos tecnológicos.</</p> -->
       </div>
-    </div>
   </div>
 </div>
 <script type="text/javascript">
-  var alt=(String)(document.body.scrollHeight)+"px";
+  var alt=(String)(screen.height)+"px";
   document.getElementById("slide1").style.height=alt;
   document.getElementById("slide2").style.height=alt;
   // document.getElementById("cajap").
