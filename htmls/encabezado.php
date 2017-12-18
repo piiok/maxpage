@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
   <title>Repair Maxter Cell</title>
   <meta charset="utf-8">
@@ -8,26 +8,25 @@
   <meta name="author" content="JDWEP">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-   <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
+   
   <script src="../jquery/jquery-3.2.1.js"></script>
   <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
   <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="shortcut icon" href="../img/max.ico">
   <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <style>
-  /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  .affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
+  .fondo{
+    height:100%;
+    width: 100%;
+    background-image: url("./../img/fondo.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   </style>
+  <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
 </head>
-<body>
+<body class="fondo">
 
 <!-- <div class="container-fluid" style="padding:0px !important;" >
   <div class="jumbotron" style="width:100%;padding:0px !important; margin:0px !important;background-color:#1B1B1B !important;border-radius:0px !important;">

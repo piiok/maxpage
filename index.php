@@ -1,4 +1,4 @@
 <?php 
 
-header("./htmls/home.php");
+header("Location: ./htmls/home.php");
  ?>

@@ -19,9 +19,9 @@
     /*position: relative;*/
     width: 100%;/*height:100%;*/
     top: 0px; left: 0px;
-    background-image: url("./../img/fondo.jpg");
+    /*background-image: url("./../img/fondo.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     z-index: 3;
     background-size: cover;
 }
@@ -32,7 +32,7 @@
 }
 .tablestyle{
   position: absolute;
-  width: 85%;
+  width: 90%;
   bottom: 5px;
   left: 0px;
   padding-left: 15%;
@@ -71,16 +71,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 8;
 }
 .logomarca{
   width: 100%;
   position: relative;
   top: 0px; left: 0px;
   opacity: 0;
+  z-index: 9;
 }
-.logomarca:hover{
+/*.logomarca:hover{
   opacity: 1;
-}
+  z-index: 4;
+}*/
 @keyframes anim1 {
   from {
     opacity: 0;
@@ -134,7 +137,9 @@
     // document.getElementById("cajap").
     </script>
 </div>
+<div class="row">
 
+</div>
   <?php
 	include("./footer.php");
    ?>
