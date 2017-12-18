@@ -121,13 +121,13 @@
           <div class="logomoto">
             <img class="logomarca"src="./../img/luz.png">
           </div>
-          <div class="logonokia">
-            <img class="logomarca"src="./../img/luz.png">
-          </div>
           <div class="logoapple">
             <img class="logomarca"src="./../img/luz.png">
           </div>
           <div class="logosams">
+            <img class="logomarca"src="./../img/luz.png">
+          </div>
+          <div class="logonokia"> <!-- En realidad es 'Y más' -->
             <img class="logomarca"src="./../img/luz.png">
           </div>
     </div>
