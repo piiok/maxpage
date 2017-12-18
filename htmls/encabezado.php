@@ -29,7 +29,7 @@
 </head>
 <body>
 
-<div class="container-fluid" style="padding:0px !important;" >
+<!-- <div class="container-fluid" style="padding:0px !important;" >
   <div class="jumbotron" style="width:100%;padding:0px !important; margin:0px !important;background-color:#1B1B1B !important;border-radius:0px !important;">
           <div class="row" style="margin:0px !important;">
             <div class="col-sm-4"></div>
@@ -37,22 +37,36 @@
           </div>
   </div>
   <div style="height:5px;background:#b8252d;" ></div>
+</div> -->
+<style type="text/css">
+  #staticbanner{
+    width:92% !important; 
+    margin-left:4%;
+    margin-right:4%;
+    margin-top: 2%;
+    position: fixed;
+    z-index: 100;
+
+  }
+</style>
+<div id="staticbanner">
+
+  <nav class="navbar navbar-inverse " style="background-color: rgba(0, 0, 0, 0.8);margin-bottom:0px !important; border-radius:10px;">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./home.php">Repair Maxter Cell</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" >
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="#">Productos</a></li>
+        <li class="dropdown"><a href="#">Servicios</a></li>
+        <li class="dropdown"><a href="./ubication.php">Contacto</a></li>
+      </ul>
+      </div>
+  </nav>
 </div>
-<nav class="navbar navbar-inverse " style="margin-bottom:0px !important;border-radius:0px !important;"data-spy="affix" data-offset-top="197">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./home.php">Repair Maxter Cell</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="nav navbar-nav">
-      <li class="dropdown"><a href="#">Productos</a></li>
-      <li class="dropdown"><a href="#">Servicios</a></li>
-      <li class="dropdown"><a href="./ubication.php">Contacto</a></li>
-    </ul>
-    </div>
-</nav>
 <div class="container-fluid">

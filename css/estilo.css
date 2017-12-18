@@ -3,6 +3,10 @@
 	font-family: Patua One;
 	src:url('./PatuaOne-Regular.ttf') format("truetype");
 	}
+html, body {
+	height:100%;
+}
+
 *{
 	margin: 0px;
 	padding: 0px;

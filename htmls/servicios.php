@@ -7,9 +7,11 @@ include("./encabezado.php");
       color: #f4511e;
       font-size: 100px;
   }
-  h2{
+  .h2p{
   	font-size: 4em;
   	margin-bottom: 40px;
+    text-shadow:5px 5px 5px #000000;
+    color:white;
   }
 h4 {
       font-size: 19px;
@@ -29,14 +31,14 @@ h4 {
   $(document).ready( function(){
       $("#slide1").fadeIn(3000);
   });
-  $("#slide1").fadeIn(3000);
+
 
   </script>
 
 <br>
 <div id="slide1" class="slide text-center" high="100%">
 	<a id="servicios"></a>
-	<h2>SERVICIOS</h2>
+	<h2  class=" h2p ">SERVICIOS</h2>
 	<div class="row slideanim">
 		<div class="col-sm-2">
 		</div>	

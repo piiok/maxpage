@@ -10,7 +10,7 @@
       #map {
         height: 100%;
         /*-webkit-filter: grayscale(100%);
-        filter: grayscale(100%); */  /*escala de gris*/
+        filter: grayscale(100%);*/   /*escala de gris*/
 
       }
       /* Optional: Makes the sample page fill the window. */
