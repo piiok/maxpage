@@ -58,7 +58,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./home.php">Repair Maxter Cell</a>
+        <a class="navbar-brand" onclick="location.reload();" href="./home.php#portada">Repair Maxter Cell</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar" >
       <ul class="nav navbar-nav navbar-right">
