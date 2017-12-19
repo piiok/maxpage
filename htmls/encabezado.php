@@ -22,10 +22,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: scroll;
+    overflow: auto;
+    overflow-x:hidden;
   }
   a{
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
   }
   </style>
   <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
