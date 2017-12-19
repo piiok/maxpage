@@ -66,6 +66,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar" >
       <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a onclick="location.reload();" href="./home.php#portada">Inicio</a></li>
         <li class="dropdown"><a href="#">Productos</a></li>
         <li class="dropdown"><a onclick="location.reload();"  href="./home.php#servicios">Servicios</a></li>
         <li class="dropdown"><a href="./ubication.php">Contacto</a></li>

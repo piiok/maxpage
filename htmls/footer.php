@@ -60,7 +60,7 @@ i {
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 1px solid #2f2f33 ;
-    background: #1B1B1B;
+    background: black;
 
 }
 .copyright-text p {

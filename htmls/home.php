@@ -110,17 +110,17 @@ h4 {
   left: 0px;
  }
 .titlep{  
-  position: absolute;
+  /*position: absolute;*/
   width: 90%;
-  height: auto;
-  top: 0%;
-  left: 0px;
+  /*height: auto;*/
+  /*top: 0%;
+  left: 0px;*/
 
   /*background-image: url("./../img/servicio3.png");
   background-position: right;
   background-repeat: no-repeat;
   /* z-index: 3;*/
-  background-size: auto;
+  /*background-size: auto;*/
   
 }
 .img1{
@@ -215,8 +215,8 @@ h4 {
   </div>
 </div>
 <script type="text/javascript">
-  var x=(screen.width*0.9*384)/959;
-  document.getElementById("div1").style.height=(String)(x)+"px";
+  // var x=(screen.width*0.9*384)/959;
+  // document.getElementById("div1").style.height=(String)(x)+"px";
   // var alt=(String)(document.body.scrollHeight)+"px";
   // var alt=(String)(screen.height)+"px";
   // document.getElementById("slide1").style.height=alt;
