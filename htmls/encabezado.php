@@ -22,10 +22,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: scroll;
+    overflow: auto;
+    overflow-x:hidden;
   }
   a{
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
   }
   </style>
   <link rel="stylesheet" href="./../css/estilo.css" type="text/css" media="all">
@@ -65,6 +66,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar" >
       <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a onclick="location.reload();" href="./home.php#portada">Inicio</a></li>
         <li class="dropdown"><a href="#">Productos</a></li>
         <li class="dropdown"><a onclick="location.reload();"  href="./home.php#servicios">Servicios</a></li>
         <li class="dropdown"><a href="./ubication.php">Contacto</a></li>
