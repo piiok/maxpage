@@ -1,4 +1,4 @@
 <?php 
 
-header("Location: ./htmls/home.php");
+header("Location: ./color/index.html");
  ?>
