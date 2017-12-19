@@ -106,7 +106,7 @@ h4 {
   position: absolute;
   width: 100%;
   /*height: 20%;*/
-  top: 18%;
+  top: 24%;
   left: 0px;
  }
 .titlep{  
@@ -123,15 +123,35 @@ h4 {
   /*background-size: auto;*/
   
 }
-.img1{
+.img1, .img2{
   position: absolute;
-  width: 10%;
-  bottom:25%;
+  width: 13%;
+  bottom:15%;
   left: 20%;
   z-index: 10;
+  opacity: 0.7;
+  /*punto de rotacion esquina superior izquierda*/
+  -ms-transform-origin: 0% 0%; /* IE 9 */
+  -webkit-transform-origin: 0% 0%; /* Safari 3-8 */
+  transform-origin: 0% 0%;
+  /*angulo de rotacion*/
+  -ms-transform: rotate(60deg); /* IE 9 */
+  -webkit-transform: rotate(60deg); /* Safari 3-8 */
+  transform: rotate(60deg);
+  /*ANIMACION*/
+  animation-delay:0s; /*Tiempo de espera despues de cargar la pagina */ 
+  animation-iteration-count:infinite; /*Nro de repeticiones de la animacion*/
+  animation-duration: 3s; /*duracion sin el delay de la animacion*/
+  animation-name: anim5;  /*nombre de la animacion */
 }
 .img2{
-  left: 40%;
+  left: 45%;
+}
+.img1:hover, .img2:hover{
+  opacity: 1;
+}
+.lineastyle{
+  border-top: 10px double black;
 }
 @keyframes anim1 {
   from {
@@ -173,6 +193,30 @@ h4 {
     left: 0px;
   }
 }
+/*@keyframes anim5 {
+  0% {
+    transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+  }
+
+  50% {
+    transform: rotate(8deg) scale(1) skew(1deg) translate(-8px);
+    -webkit-transform: rotate(8deg) scale(1) skew(1deg) translate(-8px);
+    -moz-transform: rotate(8deg) scale(1) skew(1deg) translate(-8px);
+    -o-transform: rotate(8deg) scale(1) skew(1deg) translate(-8px);
+    -ms-transform: rotate(8deg) scale(1) skew(1deg) translate(-8px);
+  }
+  100%{
+    transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-8px);  
+  }
+}*/
 </style>
 <a id="portada"></a>
 <div class="row" >
@@ -198,18 +242,19 @@ h4 {
           </div>
           <div class="logonokia"> <!-- En realidad es 'Y más' -->
             <img class="logomarca"src="./../img/luz.png">
-          </div>
+          </div>   
     </div>
   </div>
+   
 </div>
-
+<hr class="lineastyle">
 <div class="row"><a id="servicios"></a>
   <div id="slide2" class="cajap" >
     <div class="titlep1">
       <div id="div1" class="titlep2">
         <img id="div2" src="./../img/servicio.png" class="titlep">
-        <img src="./../img/compra.png" class="img1">
-        <img src="./../img/llave.png" class="img2 img1">
+        <img src="./../img/compra2.png" class="img1">
+        <img src="./../img/llave2.png" class="img2 ">
       </div>
     </div>
   </div>
